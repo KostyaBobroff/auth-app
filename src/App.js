@@ -7,6 +7,7 @@ import Registration from './pages/Registration';
 
 
 function App() {
+
   return (
     <Switch>
       <Route path="/login" render={() => <Login />} />
