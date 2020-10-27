@@ -10,9 +10,9 @@ function App() {
 
   return (
     <Switch>
+      <Route path="/" render={() => <Main />} exact/>
       <Route path="/login" render={() => <Login />} />
       <Route path="/signup" render={() => <Registration />} />
-      <Route path="/" render={() => <Main />} exact/>
     </Switch>
   );
 }
