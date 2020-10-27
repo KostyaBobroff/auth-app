@@ -13,7 +13,6 @@ function App() {
       <Route path="/login" render={() => <Login />} />
       <Route path="/signup" render={() => <Registration />} />
       <Route path="/" render={() => <Main />} exact/>
-      <Redirect to="/login"/>
     </Switch>
   );
 }
