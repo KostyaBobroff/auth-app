@@ -1,0 +1,12 @@
+.login__item {
+    margin-bottom: 15px;
+}
+
+.login__item:last-child {
+    margin-bottom: 0;
+}
+
+.login__button {
+    margin-top: 30px;
+    width: 150px;
+}

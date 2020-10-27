@@ -1,0 +1,13 @@
+.sign-up__item {
+    margin-bottom: 15px;
+}
+
+.sign-up__item:last-child {
+    margin-bottom: 0;
+}
+
+.sign-up__button {
+    width: 150px;
+
+    margin-top: 30px;
+}
